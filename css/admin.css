@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+}
+
+#side-menu{
+    width: 320px;
+    flex-grow: 0;
+}
+
+#main{
+    flex: 2 2 70%;
+}

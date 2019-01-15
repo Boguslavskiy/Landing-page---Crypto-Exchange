@@ -1,0 +1,59 @@
+body{
+    background: #f4fcff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1040px;
+    margin:  0 auto;
+    padding: 0 10px;
+}
+
+.container-large{
+    width: 100%;
+    margin:  0 auto;
+    padding: 0 10px;   
+}
+
+.languages{
+    position: relative;
+    li, a{
+        display: block;
+        height: 36px;
+        width: 36px;
+    }
+}
+.lang{
+    position: absolute;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+// header .lang{
+//     margin: 0 10px 2px;
+// }
+.lang-en{
+    background-image: url(../img/flags/usa.png);
+}
+.lang-es{
+    background-image: url(../img/flags/spain.png);
+}
+.lang-fr{
+    background-image: url(../img/flags/france.png);
+}
+.lang-zh{
+    background-image: url(../img/flags/china.png);
+}
+
+
+@media screen and (max-width: 840px) {
+    .languages{
+        
+        li, a{
+            display: block;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

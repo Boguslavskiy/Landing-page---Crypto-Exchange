@@ -1,0 +1,60 @@
+.currency-list {
+  border: 1px solid #7e0dda;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+  overflow: auto; }
+
+.chart-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin-bottom: 8px;
+  background: #fff; }
+  .chart-position .chart-logo {
+    display: flex; }
+    .chart-position .chart-logo img {
+      display: block;
+      max-height: 20px;
+      margin: 16px; }
+  .chart-position .chart-text {
+    font-weight: bold; }
+    .chart-position .chart-text span {
+      color: #8d8d8d;
+      font-size: 0.8em; }
+  .chart-position .chart-percent-up {
+    background: #b1ffb5;
+    color: #147c1a;
+    padding: 5px 16px;
+    border-radius: 8px; }
+  .chart-position .chart-percent-down {
+    background: #ffb1b1;
+    color: #851010;
+    padding: 5px 16px;
+    border-radius: 8px; }
+  .chart-position:hover {
+    cursor: pointer;
+    background: #f4fcff; }
+
+.chart-legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+  background: #fff; }
+  .chart-legend p {
+    color: #8d8d8d; }
+    .chart-legend p:first-child {
+      padding-right: 80px;
+      padding-left: 20px; }
+
+@media screen and (max-width: 640px) {
+  .chart-position, .chart-legend {
+    font-size: 0.9em;
+    padding: 0 10px;
+    width: 640px; } }
